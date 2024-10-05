@@ -1,0 +1,189 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(207, 250, 207);  
+}
+.banner{
+    width: 100%;
+    height: 100px;
+    background-color: #52bb56;
+    color: black;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height:134%;
+}
+.link-txt{
+    font-size: 20px; 
+    color:rgb(2, 68, 2);
+}
+.menu-btn{
+    border: none;
+    background-color: #52bb56;
+    margin-right: 10px;
+    font-size: 20px; 
+    color:rgb(2, 68, 2);
+    height: 30px;
+}
+#score-board, #player-label, #winner, #score-label1, #score-label2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 3px green;
+    font-weight: bold;
+    background-color: rgb(94, 240, 94);
+}
+
+#score-board{
+    border: 4px solid rgb(5, 39, 1);
+    position: relative;
+    width: 540px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#winner{
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(140, 6, 250);
+    background-color: yellow;
+}
+#table-board, .board-data, .board-row{
+    margin: auto;
+    border: 4px solid rgb(0, 82, 0);
+    background-color: green;
+}
+.board-data, .board-row{
+    border: 4px solid rgb(0, 82, 0);
+}
+#table-board{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    height: 500px; 
+}
+.tile-btn{
+    background-color: rgb(38, 155, 14);
+    border: 1px darkgreen;
+    width: 55px;
+    height:55px;
+}
+#button-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panel-btn{
+    background-color: darkgreen;
+    color: white;
+    height: 50px;
+    width: 100px;
+    transition-duration: 0.3s;
+    text-align:center;
+    padding: 0;
+}
+.panel-btn:hover,.tile-btn:hover {
+    background-color: #52bb56; 
+    color: white;
+  }
+  .menu-btn:hover{
+      background-color: rgb(187, 247, 119);
+  }
+  .dot {
+    background-color: rgb(38, 155, 14);
+    border-radius: 90%;
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    border: 0px;
+    justify-content: center;
+    pointer-events: none;
+    display: block;
+    color: white;
+  }
+ 
+@media(max-width: 560px){
+    #score-board{
+        border: 4px solid rgb(5, 39, 1);
+        position: relative;
+        width: 360px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    #button-panel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #table-board{
+        position: relative;
+        justify-content: center;
+        margin: auto;
+        width: 300px;
+        height: 300px; 
+    }
+    .tile-btn{
+        background-color: rgb(38, 155, 14);
+        border: 0.5px darkgreen;
+        width: 32px;
+        height: 32px;
+    }
+    .dot {
+        background-color: rgb(38, 155, 14);
+        border-radius: 90%;
+        width: 20px;
+        height: 20px;
+        margin: 0px;
+        border: 0px;
+        justify-content: center;
+        pointer-events: none;
+        display: block;
+        color: white;
+      }
+      .panel-btn{
+        background-color: darkgreen;
+        color: white;
+        height: 40px;
+        width: 80px;
+        transition-duration: 0.3s;
+        text-align:center;
+        padding: 0;
+    }
+    .banner{
+        width: 100%;
+        height: 150px;
+        background-color: #52bb56;
+        color: black;
+        margin-bottom: 40px;
+    }
+    .menu-btn{
+        border: none;
+        background-color: #52bb56;
+        margin-right: 8px;
+        font-size: 15px; 
+        color:rgb(2, 68, 2);
+        height: 30px;
+    }
+    .link-txt{
+        font-size: 17px; 
+        color:rgb(2, 68, 2);
+    }
+
+
+}
